@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Pertemuan9_RestApi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--User List-->
+    <string name="txtNama">Nama : Andreas Novito Andi Sano</string>
+    <string name="txtNim">Nim : 20102017</string>
+    <string name="txtTelepon">Telepon : 0813-8504-8748</string>
+
+    <!--Fragment Detail-->
+    <string name="txtnama">Nama</string>
+    <string name="txtnim">NIM</string>
+    <string name="txttelepon">Telepon</string>
+
+
+</resources>
