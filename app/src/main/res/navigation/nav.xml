@@ -13,10 +13,26 @@
         <action
             android:id="@+id/action_homeFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tambahFragment"
+            app:destination="@id/tambahFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.pertemuan9_restapi.view.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/tambahFragment"
+        android:name="com.example.pertemuan9_restapi.view.tambah.TambahFragment"
+        android:label="fragment_tambah"
+        tools:layout="@layout/fragment_tambah" />
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.example.pertemuan9_restapi.view.update.UpdateFragment"
+        android:label="fragment_update"
+        tools:layout="@layout/fragment_update" />
 </navigation>
